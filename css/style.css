@@ -21,6 +21,7 @@ header{
     top: 0;
     z-index: 999;
     padding: 6px;
+    border-bottom: 2px solid #006400;
 }
 nav{
     width: auto;
@@ -41,7 +42,8 @@ nav{
   }
   
   .nav_link:hover {
-    transform: translateY(-3px);
+    transform: translateY(-3px) scale(1.1);
+
     color: #ffa600;
     border-color: #ffa600;
 
@@ -129,6 +131,7 @@ transition: background-color 0.4s ease, color 0.4s ease;
 .card_link:active,
 .card_link:focus
 {
+    transform: scale(1.1) translateY(-5px);
     background-color: #f44336;
     color: #fff;
 
@@ -194,33 +197,35 @@ font-family: "Quicksand", sans-serif;
 .carnaval_box_text_third{
   top: 630px;
 }
-.carnaval_box_text_fourth{
-  top: 1300px;
-}
-.y1{
+
+.img_1{
         position: absolute;
     left: 10px;
     top: 50px;
     border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
     
 }
-.y2{
+.img_2{
         position: absolute;
    right: 0;
         top: 300px;
            border-radius: 10px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
 }
-.y3{
+.img_3{
         position: absolute;
     left: 10px;
 top: 650px;
   border-radius: 10px;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.y4{
-      position: absolute;
-    left: 250px;
-top:930px;
+.img_4{
+        position: absolute;
+    left: 120px;
+top: 930px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
