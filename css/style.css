@@ -1,277 +1,283 @@
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
-font-family: "Quicksand", sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
   background-color: #ffffff;
-
-
-
-
 }
-.container{
-max-width: 1200px;
-    margin: 0 auto;
-     position: relative;
-    width: auto;
-    min-height: 350px;
- padding-bottom: 60px;
-
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  min-height: 350px;
+  padding-bottom: 60px;
 }
-header{
-    text-align: center;
-    background-color:  rgba(239, 246, 215, 0.7);
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    border-bottom: 2px solid #005b8d;
+header {
+  text-align: center;
+  background-color: rgba(239, 246, 215, 0.7);
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  border-bottom: 2px solid #005b8d;
 }
-nav{
-    width: auto;
-
+nav {
+  width: auto;
 }
-.nav_list{
-    margin: 0;
-    padding: 15px 0;
+.nav_list {
+  margin: 0;
+  padding: 15px 0;
 }
 .nav_link {
-    display: inline-block;
-    margin-right: 15px;
-    text-decoration: none;
-    color: #cc1236;
-    font-size: 18px;
-    border-bottom: 2px solid #005b8d;
-    transition: transform 0.3s ease, color 0.3s ease border-color 0.4s ease;
-  }
-  
-  .nav_link:hover {
-    transform: translateY(-3px) scale(1.1);
+  display: inline-block;
+  margin-right: 15px;
+  text-decoration: none;
+  color: #cc1236;
+  font-size: 18px;
+  border-bottom: 2px solid #005b8d;
+  transition: transform 0.3s ease, color 0.3s ease border-color 0.4s ease;
+}
 
-    color: #005b8d;
-    border-color:#cc1236;
+.nav_link:hover {
+  transform: translateY(-3px) scale(1.1);
 
-  }
-
+  color: #005b8d;
+  border-color: #cc1236;
+}
 
 .hero {
   height: 60vh;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
   margin-bottom: 50px;
 }
-.hero_lable{
+.hero_lable {
   position: absolute;
   bottom: 0;
 
-padding: 5px;
-color: #203b32;
-font-size: 18px;
-font-weight: bold;
-width:100%;
-background-color: rgba(239, 255, 178, 0.7);
-padding:10px 0;
-text-align: center;
-
+  padding: 5px;
+  color: #203b32;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  background-color: rgba(239, 255, 178, 0.7);
+  padding: 10px 0;
+  text-align: center;
 }
 
 .span_title_hero {
   background-color: #203b32;
   width: 30%;
   height: 100%;
-  float: left;   
+  float: left;
 }
 
 .img_hero {
   width: 70%;
   height: 100%;
-  float: left;        
+  float: left;
   object-fit: cover;
   filter: grayscale(25%);
 }
 
-
-
-.hero_text{
+.hero_text {
   color: #dbff59;
   font-size: 70px;
   padding: 60px 30px;
-  
+
   font-family: "Oswald", sans-serif;
   font-optical-sizing: auto;
   letter-spacing: 5px;
 }
-.cards{
-  padding-bottom:40px; 
+.cards {
+  padding-bottom: 40px;
 }
-.card{
-    position: absolute;
-top: 20px;
-border-radius: 10%;
-height: 250px;
-
+.card {
+  position: absolute;
+  top: 20px;
+  border-radius: 10%;
+  height: 250px;
 }
 .card img {
-    border-radius: 10px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
-
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
-.card1{
-    left: 0;
+.card1 {
+  left: 0;
 }
-.card2{
-    left: 27.8%;
-
+.card2 {
+  left: 27.8%;
 }
-.card3{
-    left: 55.7%;
- 
+.card3 {
+  left: 55.7%;
 }
-.card4{
-    left: 83.6%;
+.card4 {
+  left: 83.6%;
 }
-.card_link{
-    position: absolute;
-    top: 105%;
-    left: 28%;
-text-decoration: none;
-    background-color: #ffffff;
-    padding: 10px;
-    color: #f44336;
-    border-radius: 10px;
-transition: background-color 0.4s ease, color 0.4s ease;
+.card_link {
+  position: absolute;
+  top: 105%;
+  left: 28%;
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 10px;
+  color: #f44336;
+  border-radius: 10px;
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 .card_link:hover,
 .card_link:active,
-.card_link:focus
-{
-    transform: scale(1.1) translateY(-5px);
-    background-color: #f44336;
-    color: #fff;
-
+.card_link:focus {
+  transform: scale(1.1) translateY(-5px);
+  background-color: #f44336;
+  color: #fff;
 }
-.lable{
-position: absolute;
-top: 0;
-right: 2%;
-padding: 5px;
-color: #fff;
-font-size: 15px;
-background-color: rgba(0, 100, 0,0.7);
-border-bottom-right-radius: 7px;
-border-bottom-left-radius: 2px;
-border-top-right-radius: 2px;
-border-top-left-radius: 7px;
+.lable {
+  position: absolute;
+  top: 0;
+  right: 2%;
+  padding: 5px;
+  color: #fff;
+  font-size: 15px;
+  background-color: rgba(0, 100, 0, 0.7);
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 2px;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 7px;
 }
 
-footer{
-bottom: 0;
+footer {
+  bottom: 0;
   width: 100%;
   height: 60px;
-  background-color:#203b32;
+  background-color: #203b32;
   color: #dbff59;
   text-align: center;
   padding: 5px 0;
   font-size: 17px;
 }
 
-
 /* CARNAVAL.HTML */
 .container_carnaval {
   min-height: 1300px;
 }
 
-.hero_carnaval_img{
-background-color: #203b32;
-height: 60vh;
-position: relative;
+.hero_carnaval {
+  background-color: #203b32;
+  height: 60vh;
+  position: relative;
 }
-.hero_text_carnaval{
+.hero_text_carnaval {
   color: #dbff59;
   font-size: 60px;
   margin: 0;
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-font-family: "Oswald", sans-serif;
-font-optical-sizing: auto;
-letter-spacing: 15px;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 15px;
 }
-.hero_paragraph{
+.hero_paragraph {
   position: absolute;
   font-size: 25px;
   letter-spacing: 3px;
-top: 55%;
-left: 50%;
-color:#fcfff2;
+  top: 55%;
+  left: 50%;
+  color: #fcfff2;
 
-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
-.carnaval_box_text{
-      position: absolute;
-right: 0%;
-border-radius: 10%;
-height: 250px;
-max-width: 50%;
-text-align: justify;
-line-height: 1.4;
+.carnaval_box_text {
+  position: absolute;
+  right: 0%;
+  border-radius: 10%;
+  height: 250px;
+  max-width: 50%;
+  text-align: justify;
+  line-height: 1.4;
 }
 
-
-.carnaval_box_text_first{
-    top: 20px;
+.carnaval_box_text_first {
+  top: 20px;
 }
-.carnaval_box_text_second{
-    top: 270px;
-    left: 0;
+.carnaval_box_text_second {
+  top: 270px;
+  left: 0;
 }
-.carnaval_box_text_third{
+.carnaval_box_text_third {
   top: 630px;
 }
 
-.img_1{
-        position: absolute;
-    left: 10px;
-    top: 50px;
-    border-radius: 10px;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-    
-}
-.img_2{
-        position: absolute;
-   right: 0;
-        top: 300px;
-           border-radius: 10px;
-          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-
-}
-.img_3{
-        position: absolute;
-    left: 10px;
-top: 650px;
+.img_1 {
+  position: absolute;
+  left: 10px;
+  top: 50px;
   border-radius: 10px;
-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
-.img_4{
-        position: absolute;
-    left: 120px;
-top: 930px;
+.img_2 {
+  position: absolute;
+  right: 0;
+  top: 300px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img_3 {
+  position: absolute;
+  left: 10px;
+  top: 650px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.img_4 {
+  position: absolute;
+  left: 120px;
+  top: 930px;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 /* BINCHE.HTML */
-.hero_binche{
-  background:linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.5)), url(../images/belg.jpg);
-  height:60vh;
+.hero_binche {
+  background: linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.5)),
+    url(../images/belg.jpg);
+  height: 60vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   object-fit: cover;
+  width: 100%;
+}
+
+/* RIO.HTML */
+.hero_rio{
+  position: relative;
+  height: 60vh;
+  width: 100%;
+}
+ .hero_rio_img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(30%);
+ }
+.hero_text_rio{
+  color: #dbff59;
+  font-size: 60px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 15px;
 }
