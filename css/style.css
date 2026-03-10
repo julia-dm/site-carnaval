@@ -6,6 +6,10 @@ font-family: "Quicksand", sans-serif;
   font-weight: 500;
   font-style: normal;
   background-color: #ffffff;
+
+
+
+
 }
 .container{
 max-width: 1200px;
@@ -18,7 +22,7 @@ max-width: 1200px;
 }
 header{
     text-align: center;
-    background-color: #fff;
+    background-color:  rgba(239, 246, 215, 0.7);
     position: sticky;
     top: 0;
     z-index: 999;
@@ -66,7 +70,7 @@ color: #203b32;
 font-size: 18px;
 font-weight: bold;
 width:100%;
-background-color: rgba(239, 255, 178,0.7);
+background-color: rgba(239, 255, 178, 0.7);
 padding:10px 0;
 text-align: center;
 
@@ -74,24 +78,29 @@ text-align: center;
 
 .span_title_hero {
   background-color: #203b32;
-  width: 40%;
+  width: 30%;
   height: 100%;
   float: left;   
 }
 
 .img_hero {
-  width: 60%;
+  width: 70%;
   height: 100%;
   float: left;        
   object-fit: cover;
+  filter: grayscale(25%);
 }
 
 
 
 .hero_text{
   color: #dbff59;
-  font-size: 60px;
-  padding: 60px 20px;
+  font-size: 70px;
+  padding: 60px 30px;
+  
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  letter-spacing: 5px;
 }
 .cards{
   padding-bottom:40px; 
@@ -172,15 +181,34 @@ bottom: 0;
 .container_carnaval {
   min-height: 1300px;
 }
-.hero_carnaval_img{
-     background:linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.5)), url(../images/carnaval_carnaval.jpg);
-height: 60vh;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
-object-fit: cover;
 
+.hero_carnaval_img{
+background-color: #203b32;
+height: 60vh;
+position: relative;
+}
+.hero_text_carnaval{
+  color: #dbff59;
+  font-size: 60px;
+  margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+font-family: "Oswald", sans-serif;
+font-optical-sizing: auto;
+letter-spacing: 15px;
+
+}
+.hero_paragraph{
+  position: absolute;
+  font-size: 25px;
+  letter-spacing: 3px;
+top: 55%;
+left: 50%;
+color:#fcfff2;
+
+transform: translate(-50%, -50%);
 }
 
 .carnaval_box_text{
@@ -191,11 +219,6 @@ height: 250px;
 max-width: 50%;
 text-align: justify;
 line-height: 1.4;
-
-font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
 }
 
 
