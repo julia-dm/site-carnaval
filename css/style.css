@@ -22,7 +22,6 @@ header{
     position: sticky;
     top: 0;
     z-index: 999;
-    padding: 6px;
     border-bottom: 2px solid #005b8d;
 }
 nav{
@@ -30,8 +29,8 @@ nav{
 
 }
 .nav_list{
-    margin-top: 0;
-    padding-top: 15px;
+    margin: 0;
+    padding: 15px 0;
 }
 .nav_link {
     display: inline-block;
@@ -39,64 +38,63 @@ nav{
     text-decoration: none;
     color: #cc1236;
     font-size: 18px;
-    border-bottom: 2px solid #005b8d ;
+    border-bottom: 2px solid #005b8d;
     transition: transform 0.3s ease, color 0.3s ease border-color 0.4s ease;
   }
   
   .nav_link:hover {
     transform: translateY(-3px) scale(1.1);
 
-    color: #f99d1b;
-    border-color: #f99d1b;
+    color: #005b8d;
+    border-color:#cc1236;
 
   }
-.hero{
-    margin-bottom: 50px;
-}
 
-.hero_img{
- background:linear-gradient(rgba(0, 0, 0, 0.548), rgba(0, 0, 0, 0.5)), url(../images/carnaval.jpg);
-height: 60vh;
-width: 100%;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-position: relative;
+
+.hero {
+  height: 60vh;
+  overflow: hidden; 
+  position: relative;
+  margin-bottom: 50px;
 }
-.hero_text{
-  text-align: center;
+.hero_lable{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: rgb(255, 255, 255);
-  padding: 8px;
+  bottom: 0;
 
+padding: 5px;
+color: #203b32;
+font-size: 18px;
+font-weight: bold;
+width:100%;
+background-color: rgba(239, 255, 178,0.7);
+padding:10px 0;
+text-align: center;
 
-
-  background: rgba(34, 65, 29, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(56, 82, 64, 0.3);
-
-transition:  all 0.4s ease;
-}
-.hero_text:hover{
-  background: rgba(19, 71, 35, 0.3);
-  border-radius: 16px;
-box-shadow: 0 4px 30px rgba(194, 166, 197, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(13, 48, 25, 0.3);
 }
 
+.span_title_hero {
+  background-color: #203b32;
+  width: 40%;
+  height: 100%;
+  float: left;   
+}
+
+.img_hero {
+  width: 60%;
+  height: 100%;
+  float: left;        
+  object-fit: cover;
+}
+
+
+
+.hero_text{
+  color: #dbff59;
+  font-size: 60px;
+  padding: 60px 20px;
+}
 .cards{
-    /* position: relative;
-    width: auto; */
-
-  padding-bottom: 2.5rem; 
+  padding-bottom:40px; 
 }
 .card{
     position: absolute;
@@ -145,8 +143,8 @@ transition: background-color 0.4s ease, color 0.4s ease;
 
 }
 .lable{
-     position: absolute;
-    top: 0;
+position: absolute;
+top: 0;
 right: 2%;
 padding: 5px;
 color: #fff;
@@ -162,8 +160,11 @@ footer{
 bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #005b8d;
+  background-color:#203b32;
+  color: #dbff59;
   text-align: center;
+  padding: 5px 0;
+  font-size: 17px;
 }
 
 
@@ -178,6 +179,7 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 position: relative;
+object-fit: cover;
 
 }
 
@@ -248,4 +250,5 @@ top: 930px;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  object-fit: cover;
 }
